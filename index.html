@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Card</title>
     <link href="./dist/output.css" rel="stylesheet" />
 </head>
-<body class="bg-black">
-    <section class="bg-gray-700 w-100 mx-auto  flex  flex-col items-center justify-center mt-3 rounded-lg ">
-        <img src="profilepics.jpg" class="rounded-full w-30 h-30 mt-3">
-        <h1 class="text-2xl text-white font-bold mt-6">Abdurrahman Tajudeen</h1>
-        <p class="font-bold text-[14px] text-lime-400 ">Aspiring Front-End Developer</p>
-        <p class="text-white text-[17px] mt-4">"Learning in public. Open to collaborate."</p>
-        <a href="https://github.com/Codingwithfawzaan009" class="bg-neutral-700 text-[18px] font-bold text-white mt-6 px-33 pt-3 pb-2 rounded-2xl hover:bg-lime-400 duration-150">GitHub</a>
-        <a href="https://www.linkedin.com/in/abdurrahman-tajudeen-69b563432" class="bg-neutral-700 text-[18px] font-bold text-white mt-4 px-32 pt-3 pb-2 rounded-2xl hover:bg-lime-400 duration-150">LinkedIn</a>
-        <a href="https://www.instagram.com/codingwithfawzaan?obrf=MXBib2E2NzM2M29jMA==" class="bg-neutral-700 text-[18px] font-bold text-white mt-4 px-30 pt-3 pb-2 rounded-2xl hover:bg-lime-400 duration-150">Instagram</a>
-        <a href="https://tiktok.com/@codingwithfawzaan" class="bg-neutral-700 text-[18px] font-bold text-white mt-4 px-35 pt-3 pb-2 rounded-2xl hover:bg-lime-400 duration-150">Tiktok</a>
-        <a href="https://wa.me/2347031270623" class="bg-neutral-700 text-[18px] font-bold text-white mt-4 px-31 pt-3 pb-2 rounded-2xl hover:bg-lime-400 duration-150 mb-5">WhatsApp</a>
+<body class="bg-black min-h-screen flex items-center justify-center p-4">
+    <section class="bg-gray-700 w-full max-w-sm sm:max-w-md mx-auto flex flex-col items-center rounded-lg p-6 sm:p-8">
+        <img src="profilepics.jpg" alt="Abdurrahman Tajudeen" class="rounded-full w-24 h-24 sm:w-30 sm:h-30 object-cover">
+        <h1 class="text-xl sm:text-2xl text-white font-bold mt-6 text-center">Abdurrahman Tajudeen</h1>
+        <p class="font-bold text-sm sm:text-[14px] text-lime-400 text-center">Aspiring Front-End Developer</p>
+        <p class="text-white text-base sm:text-[17px] mt-4 text-center">"Learning in public. Open to collaborate."</p>
 
+        <div class="w-full flex flex-col gap-4 mt-6">
+            <a href="https://github.com/Codingwithfawzaan009" class="block w-full text-center bg-neutral-700 text-base sm:text-[18px] font-bold text-white py-3 rounded-2xl hover:bg-lime-400 duration-150">GitHub</a>
+            <a href="https://www.linkedin.com/in/abdurrahman-tajudeen-69b563432" class="block w-full text-center bg-neutral-700 text-base sm:text-[18px] font-bold text-white py-3 rounded-2xl hover:bg-lime-400 duration-150">LinkedIn</a>
+            <a href="https://www.instagram.com/codingwithfawzaan?obrf=MXBib2E2NzM2M29jMA==" class="block w-full text-center bg-neutral-700 text-base sm:text-[18px] font-bold text-white py-3 rounded-2xl hover:bg-lime-400 duration-150">Instagram</a>
+            <a href="https://tiktok.com/@codingwithfawzaan" class="block w-full text-center bg-neutral-700 text-base sm:text-[18px] font-bold text-white py-3 rounded-2xl hover:bg-lime-400 duration-150">Tiktok</a>
+            <a href="https://wa.me/2347031270623" class="block w-full text-center bg-neutral-700 text-base sm:text-[18px] font-bold text-white py-3 rounded-2xl hover:bg-lime-400 duration-150">WhatsApp</a>
+        </div>
     </section>
-   
-    
 </body>
 </html>
